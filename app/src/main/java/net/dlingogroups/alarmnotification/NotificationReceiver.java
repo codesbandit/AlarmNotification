@@ -61,6 +61,8 @@ public class NotificationReceiver extends BroadcastReceiver {
         Ringtone r = RingtoneManager.getRingtone(context.getApplicationContext(), path);
         r.play();
 
+        // THIS IS ADDED TO SEE REVERT
+
 //        Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM);
 //        Ringtone r = RingtoneManager.getRingtone(context,notification);
 //        r.play();
